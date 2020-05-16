@@ -2062,7 +2062,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #ffffff;
+		background: #2e2a2a;
 		border-bottom: solid 1px #ccc;
 		padding: 5em 0 4em 0;
 		text-align: center;
@@ -2187,22 +2187,21 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background-image: url(/images/pic01.jpg);
 		background-position: center center;
 		background-size: auto 100%;
-		background-position: 0 0;
-		background-repeat: repeat-x;
 		animation: animate 60s linear infinite;
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
 		margin: 4em 0 0 0;
 	}
-
-	@keyframes animate{
+	@keyframes animate {
 		0%{background-position: 0 0;}
-		100%{background-position: -2122px 0;}
+		100%{background-position: -5312px;}
+
 	}
+	
 
 		#banner header {
 			background-color: rgba(34, 30, 31, 0.98);
@@ -2225,6 +2224,21 @@ input, select, textarea {
 				margin: 0;
 				font-size: 1.5em;
 			}
+			
+
+
+/*slider
+
+.slider{
+	max-width: 50%;
+	max-height: 50%;
+	max-height: 20%;
+	background:  url(/images/s3.JPG); width: 1200px; height: 800px;
+	margin: 100px auto;
+
+}
+
+*/	
 
 /* Intro */
 
